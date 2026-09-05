@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: #FBE6C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 550px;
+    height: 300px;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 2px burlywood;
+    color: #5a3a28;
+}
+.coffee-img-section{
+    width: 250px;
+    height: 300px;
+}
+.coffee-content{
+    width: 300px;
+    height: 300px;
+}
+.coffee-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.coffee-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.product-name{
+    padding: 20px 0px 0px 20px;
+    color: gray; Free free to admit kanada mzome too free ho, las mat dosever mummy,
+}
+.coffee-content h1{
+    font-size: 2.1rem;
+    padding: 10px 30px 0px 20px;
+}
+.desc{
+    padding:10px 0px 0px 20px;
+    color: gray;
+}
+.discounted-price{
+    font-size: 2rem;
+    padding:10px 0px 0px 20px;
+    margin-bottom: 10px;
+    
+
+}
+.original-price{
+    font-size: 20px;
+    color: gray;
+}
+.btn{
+    align-self: center;
+    width: 200px;
+    height: 30px;
+    background-color: #E37434;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: #634d41;
+    cursor: pointer;
+
+}

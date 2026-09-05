@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  position: relative;
+  z-index: -1;
+}
+.background,
+.foreground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.background {
+  transform: translateZ(-40px) scale(5);
+}
+.foreground {
+  transform: translateZ(-20px) scale(3);
+}
+h1 {
+  position: absolute;
+  top: 5rem;
+  font-size: 7rem;
+  letter-spacing: 0.75rem;
+  color: white;
+}
+.first-section {
+  height: 50vh;
+  background-color: black;
+  color: white;
+}
+.first-section h2 {
+  font-size: 3rem;
+  padding: 20px;
+}
+.first-section p {
+  padding: 20px 10px;
+  margin: 10px 0;
+  font-size: 1.25rem;
+}
+.bg {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.bg1 {
+  background-image: url(markus-spiske-WUehAgqO5hE-unsplash.jpg);
+}
+.bg2 {
+  background-image: url(vlad-hilitanu-WRncbwcYH3U-unsplash.jpg);
+}
+.bg3 {
+  background-image: url(sincerely-media-oC32cy4x-ZA-unsplash.jpg);
+}
+.section-heading {
+  font-size: 2.5rem;
+  color: rgb(243, 239, 22);
+  position: absolute;
+  top: 50%;
+  left: 43%;
+}
+.section-text {
+  height: 400px;
+  background: #000;
+  color: white;
+  font-size: 2rem;
+  padding: 30px 10px;
+}
