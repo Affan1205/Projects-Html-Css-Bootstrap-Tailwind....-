@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.heading {
+  border-bottom: 1px solid;
+}
+.subscribe-link {
+  color: gray;
+}
+.blog-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  grid-template-areas:
+    "main sidebar"
+    "main archive"
+    "main elsewhere";
+}
+.main-container {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.about-container {
+  margin: 20px;
+}
+.archives-container {
+  margin: 20px;
+  padding: 20px;
+}
+.elsewhere-container {
+  margin: 20px;
+  padding: 20px;
+}
+.main-wrapper {
+  margin-left: 10px;
+}
+.main-date {
+  font-size: smaller;
+  color: gray;
+}
+.main-date a {
+  color: blue;
+}
+.main-container p {
+  margin: 10px 0;
+}
+.main-content {
+  border: 1px solid black;
+}
+.list {
+  margin-left: 30px;
+}
+.about {
+  background-color: gainsboro;
+  padding: 20px;
+}
+.archives-container ul {
+  list-style-type: none;
+}
+.archives-container ul a {
+  color: blue;
+}
+.elsewhere-container ul {
+  list-style-type: none;
+}
+.elsewhere-container ul a {
+  color: blue;
+}
