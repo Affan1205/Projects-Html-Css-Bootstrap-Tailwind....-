@@ -165,10 +165,6 @@
     filter: grayscale(0);
   }
 }
-.dot {
-  width: 250px;
-  height: 150px;
-}
 .icon-dots {
   z-index: 8;
   bottom: -1rem;
@@ -187,7 +183,7 @@
   }
 }
 .cube {
-  width: 80px;
+  width: 70px;
   height: 50px;
 }
 .icon-cube {
@@ -219,7 +215,7 @@
   left: 0;
   animation-name: shakeEffect;
   animation-duration: 6s;
-  animation-timing-function: liner;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 @keyframes shakeEffect {
@@ -260,7 +256,8 @@
   }
 }
 .plus {
-  width: 90px;
+  width: 40px;
+  transform: rotate(-20deg);
 }
 .icon-plus {
   z-index: 8;
