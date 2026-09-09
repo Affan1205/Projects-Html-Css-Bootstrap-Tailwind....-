@@ -42,7 +42,7 @@
 }
 .product-name{
     padding: 20px 0px 0px 20px;
-    color: gray; Free free to admit kanada mzome too free ho, las mat dosever mummy,
+    color: gray;/* Free free to admit kanada mzome too free ho, las mat dosever mummy,*/
 }
 .coffee-content h1{
     font-size: 2.1rem;
@@ -76,4 +76,4 @@
     background-color: #634d41;
     cursor: pointer;
 
-}
+} 
