@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme{
+    /* Font */
+  --font-ggSans: "Google Sans", sans-serif;
+}
