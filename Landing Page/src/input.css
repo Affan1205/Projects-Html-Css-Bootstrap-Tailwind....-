@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme {
+  /* Font */
+  --font-poppins: "Poppins", sans-serif;
+  --font-mullish: "Mullish", sans-serif;
+}
